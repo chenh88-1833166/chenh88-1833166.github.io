@@ -1,0 +1,40 @@
+p.paragraph1{
+    font-style: italic;
+}
+
+p.paragraph2{
+    font-style: oblique;
+}
+
+p.paragraph3{
+    border-style: dotted;
+}
+
+p.paragraph4{
+    border-radius: 25px;
+    border: 2px solid;
+}
+
+p.paragraph5{
+    float: left;
+}
+
+#img{
+    width: 50px;
+    height: 50px;
+}
+
+#img2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+span{
+    position:absolute;
+    top: 500px; 
+    left: 220px;
+    color: rgb(203, 20, 220);
+    font-size: larger;
+}
