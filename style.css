@@ -1,0 +1,250 @@
+/*
+Template Design by TheWebhub.com
+http://www.thewebhub.com
+Released for free under a Creative Commons Attribution-Share Alike 3.0 Philippines
+*/
+
+/** Common Styles */
+
+body {
+	margin: 30px 0 20px 0;
+	padding: 0;
+	background: #D7D7BD;
+	text-align: justify;
+	line-height: 25px;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3C3C37;
+}
+
+h2, h3 {
+	padding: 0;
+	margin: 0;
+	color: #005880;
+}
+
+p, ul, ol {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin: 0px;
+	padding: 0;
+}
+
+a {
+	color: #005880;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #005880;
+}
+
+/** Style for header starts here */
+
+#header {
+	width: 800px;
+	height: 250px;
+	margin: 0px auto;
+	background: url(images/bg1.jpg) left top;
+	background-size: cover;
+}
+
+#header h1, #header h2 {
+	margin: 0px;
+	padding: 0;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#header h1 {
+	padding: 90px 0px 10px 90px;
+	font-size: 3em;
+}
+
+#header h2 {
+	padding: 0px 0px 0px 92px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+/** Style for menu starts here */
+
+#menu {
+	width: 800px;
+	height: 50px;
+	margin: 0px auto;
+	background: #000000;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0 0 0 20px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 14px 30px 10px 12px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	color: #D7D7BD;
+}
+
+/** Style for wrapper starts here */
+
+#wrapper {
+	width: 800px;
+	margin: 0px auto;
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+/** Style for content starts here */
+
+#content {
+	width: 800px;
+	margin: 0px auto;
+	padding-top: 25px;
+}
+
+#content h2 {
+	text-transform: capitalize;
+	font-size: 1.6em;
+	font-weight: bold;
+	border-bottom: 1px #CCCCCC dashed;
+}
+
+#content h3 {
+	text-transform: capitalize;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#content p, #content li {
+	font-size: 13px;
+}
+
+#left {
+	float: left;
+	width: 480px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+#left ul {
+	margin: 0 3em;
+	padding: 0;
+}
+
+#left li {
+	margin-bottom: 10px;
+	padding-left: 10px;
+	line-height: 17px;
+}
+
+#left .post {
+	margin-bottom: 20px;
+}
+
+#right {
+	float: right;
+	width: 240px;
+	margin-bottom: 20px;
+	padding-right: 20px;
+}
+
+
+#right ul {
+	margin: 15px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+#right li {
+	padding-left: 10px;
+}
+
+/** Style for services list starts here */
+#services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#services > div {
+	width: 120px;
+	height: 120px;
+	border: solid 2px black;
+	border-radius: 10px;
+	margin: 10px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+}
+
+#services > div:hover {
+	background: #b3b3ab;
+}
+
+/** style for form starts here */
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form > label {
+	font-size: 11px;
+}
+
+#submit {
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+/** Style for footer starts here */
+
+#footer {
+	clear: both;
+	width: 800px;
+	height: 42px;
+	margin: 0px auto;
+	padding-top: 13px;
+	background: #000000;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #E5E5CC;
+}
+
+#footer .copyright {
+	float: left;
+	margin: 0px;
+	padding-left: 20px;
+	text-align: center;
+}
+
+#footer .links {
+	float: right;
+	margin: 0px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+
+#footer a {
+	color: #ffffff;
+}
